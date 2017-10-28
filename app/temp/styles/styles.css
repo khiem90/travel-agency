@@ -1066,7 +1066,7 @@ a {
   }
 
 .icon--wifi {
-    width: 60px;
+    width: 59.5px;
     height: 64px;
     background-position: 68.79227053140097% 0
   }
@@ -1140,6 +1140,24 @@ a {
 
 .site-header__logo__graphic {
       text-indent: -9999px;
+    }
+
+.site-header__menu-icon {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+  }
+
+@media (min-width: 800px) {
+
+.site-header__menu-icon {
+      display: none
+
+  }
     }
 
 .site-header__menu-content {
